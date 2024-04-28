@@ -5,6 +5,9 @@ O projeto Pokedex é uma aplicação web construída ao longo de um desafio prop
 A aplicação consiste em uma ferramenta para pesquisa de pokemóns, utilizando os devidos meios para criar uma interface intuitiva e diferentes modelos de pokemóns a ser visualizados.
 
 ## Layout web
+https://github.com/rafaelfr66/Pokedex/blob/main/projetopokedex/templates/index.html
+https://github.com/rafaelfr66/Pokedex/blob/main/projetopokedex/templates/nopokemon.html
+https://github.com/rafaelfr66/Pokedex/blob/main/projetopokedex/templates/pokemon.html
 
 # Tecnologias utilizadas
 ## Back end
@@ -29,7 +32,7 @@ Flask 3.0 ou superior.
 git clone https://github.com/devsuperior/sds1-wmazoni
 
 # entrar na pasta do projeto
-cd pokedex
+cd pokedex/projetopokedex
 
 # Criar ambiente virtual
 python3 -m venv venv
