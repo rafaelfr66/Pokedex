@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto pokedex</title>
+
+    <style>
+        body {
+            background-image: url('static/pokedex.webp'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            height: 100vh; 
+            margin: 0; 
+            padding: 0;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0;
+           
+        }
+        .conteudo {
+            text-align: center;
+            padding: 20px;
+            background-color: red;
+        }
+        .botao{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="conteudo">
+        <h1>Pokedex</h1>
+        <form action="/get_pokemon" method="POST">
+            <input class="botao" type="text" name="pokemon" id="pokemon" placeholder="Nome do pokemón">
+            <br>
+            <input type="submit" value="Buscar">
+        </form>
+    </div>
+
+</body>
+</html>

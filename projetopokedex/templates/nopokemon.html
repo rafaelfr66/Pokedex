@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemón não encontrado</title>
+
+    <style>
+        body {
+            background-color: #c90101
+        }
+        .centralizado {
+            width: 30%; 
+            margin: 0 auto; 
+            background-color: yellow; 
+            padding: 20px; 
+        }
+        .imagem {
+            width: 100%;}
+    </style>
+
+</head>
+<body>
+
+    <div class="centralizado">
+        <img class="imagem" src="static/pikachutriste.jpg">
+        <p>Infelizmente não encontramos este pokemón, verifique se o nome foi digitado corretamente</p>
+        <p>Dica: coloque o nome sem nenhuma letra maiúscula ou caractere especial</p>
+        <p>Se ainda assim não funcionar, pode ser que este pokemón ainda não foi implementado na nossa base de dados, aguarde atualizações futuras!</p>
+        <form action="/home_page" method="POST">     
+            <input type="submit" value="Retornar e buscar outro pokemón">
+        </form>
+    </div>
+
+</body>
+</html>
