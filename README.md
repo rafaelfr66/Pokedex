@@ -19,15 +19,23 @@ A aplicação consiste em uma ferramenta para pesquisa de pokemóns, utilizando 
 
 Pré-requisitos: 
 
-Python 3.10 ou superior
-Flask 3.0 ou superior
+Python 3.10 ou superior;
+Pip 23.2 ou superior;
+Flask 3.0 ou superior.
 
+## Linux
 ```bash
 # clonar repositório
 git clone https://github.com/devsuperior/sds1-wmazoni
 
 # entrar na pasta do projeto
 cd pokedex
+
+# Criar ambiente virtual
+python3 -m venv venv
+
+# Instalar o flask 
+pip install flask
 
 # ativar o ambiente virtual
 source venv/bin/activate
@@ -38,8 +46,27 @@ export FLASK_APP=main.py
 # executar o projeto Flask localmente
 xdg-open http://127.0.0.1:5000
 flask run
+```
 
-```bash
+## Windows
+```batch
+
+# Criar ambiente virtual:
+python -m venv venv
+
+# Instalar o Flask:
+pip install flask
+
+# Ativar o ambiente virtual:
+venv\Scripts\activate
+
+# Definir a aplicação principal do Flask:
+set FLASK_APP=main.py
+
+# Executar o projeto Flask localmente:
+start http://127.0.0.1:5000
+flask run
+```
 
 # Autor
 
